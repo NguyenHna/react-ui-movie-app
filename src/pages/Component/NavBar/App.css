@@ -1,0 +1,38 @@
+.container {
+  max-width: 100%;
+}
+
+.nav-bar {
+  flex-flow: row;
+  justify-content: space-around;
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  top: 0;
+  left: 10px;
+  padding: 20px 0px;
+  z-index: 1;
+}
+
+.logo {
+  color: rgb(250, 84, 84);
+  margin-left: 20px;
+}
+
+.btn-search {
+  text-align: right;
+  margin-left: 20px;
+}
+
+.logo :hover,
+.btn-search :hover {
+  cursor: pointer;
+}
+.btn-search > button {
+  width: 8%;
+  margin-right: 20px;
+}
+
+.background {
+  background-color: #333;
+}

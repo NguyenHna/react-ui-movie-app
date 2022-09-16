@@ -1,0 +1,39 @@
+.search-page {
+  left: 100px;
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.input-search {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(80, 212, 252, 0.685);
+  padding: 10px;
+}
+
+.input-search > input {
+  padding: 10px;
+  display: inline-block;
+  width: 85%;
+  border: none;
+  margin-left: 5px;
+}
+
+.input-search > button {
+  display: inline-block;
+  width: 10%;
+  padding: 5px;
+}
+
+.action-search {
+  float: right;
+  width: 100%;
+  padding: 10px;
+}
+
+.action-search > button {
+  margin-right: 10px;
+  padding: 15px;
+  border: none;
+}
